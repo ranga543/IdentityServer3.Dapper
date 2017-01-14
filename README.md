@@ -1,4 +1,4 @@
-# IdentiyServer3.Dapper
+# IdentityServer3.Dapper
 IdentityServer3.Dapper is extention for IdentityServer v3 configuration data that uses dapper-dot-net as it's database abstraction. The library is written in C#.
 
 For more information on identity server 3, visit the [IdentityServer3](https://github.com/IdentityServer/IdentityServer3)
@@ -13,7 +13,7 @@ PM> Install-Package IdentityServer3.Dapper
 # How to Use
 
 ```C#
-// DB setup (https://github.com/ranga543/IdentiyServer3.Dapper/blob/master/Sql/all.sql)
+// DB setup (https://github.com/ranga543/IdentityServer3.Dapper/blob/master/Sql/all.sql)
 // Please refer to sample project
 // Add following code under Configuration method of Startup.cs in your project
 var dapperServiceOptions = new DapperServiceOptions(() => new SqlConnection(ConfigurationManager.ConnectionStrings["YourDBConnectionStringName"].ConnectionString));
@@ -27,7 +27,7 @@ factory.RegisterOperationalServices(dapperServiceOptions);
 If you want to build the source, clone the repository, and open up IdentityServer3.Dapper.sln.  
 
 ```
-git clone https://github.com/ranga543/IdentiyServer3.Dapper.git
+git clone https://github.com/ranga543/IdentityServer3.Dapper.git
 explorer IdentityServer3.Dapper\IdentityServer3.Dapper.sln
 ```
 
