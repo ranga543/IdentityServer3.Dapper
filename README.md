@@ -1,2 +1,2 @@
 # IdentiyServer3.Dapper
-Dapper extension for IdentityServer3 
+IdentityServer3.Dapper is extention for IdentityServer v3 configuration data that uses Dapper as it's database abstraction.
