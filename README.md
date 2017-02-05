@@ -30,10 +30,5 @@ If you want to build the source, clone the repository, and open up IdentityServe
 git clone https://github.com/ranga543/IdentityServer3.Dapper.git
 explorer IdentityServer3.Dapper\IdentityServer3.Dapper.sln
 ```
-
-## Supported Platforms
-YelpSharp targets .NET >=4.5.  If you would like support for other platforms, let me know.  
-
-
 ## Questions?
 Feel free to submit an issue on the repository.
