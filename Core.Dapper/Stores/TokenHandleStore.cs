@@ -21,7 +21,7 @@ namespace IdentityServer3.Dapper
                 SubjectId = value.SubjectId,
                 ClientId = value.ClientId,
                 JsonCode = ConvertToJson(value),
-                Expiry = DateTimeOffset.UtcNow.AddSeconds(value.Client.AuthorizationCodeLifetime),
+                Expiry = DateTimeOffset.UtcNow.AddSeconds(value.Lifetime),
                 TokenType = TokenType
             };
             using (var con = Options.OpenConnection())
